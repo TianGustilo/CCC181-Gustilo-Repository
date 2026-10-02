@@ -1,7 +1,7 @@
 # Git Exercises
 
 **Course:** CCC181  
-**Student Name:** <Gustilo>, <Kristian>  
+**Student Name:** Gustilo, Kristian  
 **Student ID:** <20230129>  
 
 ## Activity Description
