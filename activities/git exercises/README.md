@@ -16,10 +16,10 @@ My Git configuration uses my student ID number without the hyphen, as instructed
 
 | Exercise No. | Exercise Title | Screenshot File |
 |---|---|---|
-| 01 | <master> | `gustilo_kristian_01.png` |
-| 02 | <commit-one-file> | `gustilo_kristian_02.png` |
-| 03 | <commit-one-file-staged> | `gustilo_kristian_03.png` |
-| 04 | <ignore-them> | `gustilo_kristian_04.png` |
+| 01 | master | `gustilo_kristian_01.png` |
+| 02 | commit-one-file | `gustilo_kristian_02.png` |
+| 03 | commit-one-file-staged | `gustilo_kristian_03.png` |
+| 04 | ignore-them | `gustilo_kristian_04.png` |
 
 > Add, remove, or update rows based on the exercises you completed.
 
