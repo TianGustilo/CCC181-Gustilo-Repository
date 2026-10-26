@@ -12,9 +12,9 @@ app = Flask(__name__)
 # server restarts. A real app would save tickets in a database later.
 
 SERVICES = [
-    {"id": 1, "name": "Enrollment Concern"},
-    {"id": 2, "name": "Academic Record Inquiry"},
-    {"id": 3, "name": "Document Request"},
+    {"service_id": 1, "name": "Enrollment Concern"},
+    {"service_id": 2, "name": "Academic Record Inquiry"},
+    {"service_id": 3, "name": "Document Request"},
 ]
 
 TICKETS = [
