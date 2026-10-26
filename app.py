@@ -10,12 +10,31 @@ app = Flask(__name__)
 
 # Sample data for the demo. It lives in memory, so it resets every time the
 # server restarts. A real app would save tickets in a database later.
-TICKETS = [
-    {"number": 12, "name": "Ana"},
-    {"number": 13, "name": "Ben"},
-    {"number": 14, "name": "Carla"},
+
+SERVICES = [
+    {"id": 1, "name": "Enrollment Concern"},
+    {"id": 2, "name": "Academic Record Inquiry"},
+    {"id": 3, "name": "Document Request"},
 ]
 
+TICKETS = [
+    {
+        "number": 1,
+        "student_id": "2023-0129",
+        "first_name": "Alex",
+        "family_name": "Santos",
+        "service_id": 1,
+        "status": "waiting",
+    },
+    {
+        "number": 2,
+        "student_id": "2024-0456",
+        "first_name": "Jamie",
+        "family_name": "Reyes",
+        "service_id": 3,
+        "status": "waiting",
+    },
+]
 
 @app.route("/")
 def index():
